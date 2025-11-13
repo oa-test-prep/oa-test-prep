@@ -1,12 +1,20 @@
-# Om and Ayaan Tutoring
+# Last minute test prep for cheap
+Om+Ayaan Test Prep offers test prep up until 1am the night before your test for $15.
 
-We are tutors that do tutoring for $15 a session.
+Say hello to:
 
-Please get tutored.
+oatestprep@gmail.com
 
-## Contact
+640-246-1947
 
-rahejaom (at) outlook (dot) com
+[Discord](https://discord.com) @lua\_java
+
+# Who's teaching
+
+[Om Raheja](https://omraheja.me)
+[Ayaan Zahid](https://github.com/AZ-1215)
+
+
 
 ---
 (c) Om+Ayaan Test Prep 2025
