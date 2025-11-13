@@ -1,31 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" href="style.css" />
-<title>Om + Ayaan Test Prep</title>
-<meta name="description" content="Professional, affordable last-minute tutoring for Chemistry, Calculus, Math, and Physics.">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Om + Ayaan Test Prep</title>
+  <meta name="description" content="Professional, affordable last-minute tutoring for Chemistry, Calculus, Math, and Physics.">
+  <style>
+    :root{
+      --accent:#0f62fe; /* bold blue */
+      --muted:#6b7280;
+      --bg:#0f1724;
+      --card:#0b1220;
+      color-scheme: dark;
+    }
+    html,body{margin:0;padding:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071428 0%, #071a2a 60%);color:#e6eef8}
+    .container{max-width:980px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;color:white;font-size:20px}
+    h1{margin:0;font-size:28px}
+    .sub{color:var(--muted);font-size:14px}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .big-cta{font-size:20px;margin:10px 0}
+    .cta-btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:700}
+    .muted{color:var(--muted)}
+
+    .subjects{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .subject{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+    .subject h3{margin:0 0 8px 0}
+    ul{margin:8px 0 0 18px}
+
+    aside .contact{display:flex;flex-direction:column;gap:8px}
+    .contact .line{display:flex;gap:8px;align-items:center}
+    .phone{font-weight:700}
+    .teachers{display:flex;gap:10px;flex-direction:column;margin-top:12px}
+    .teacher{display:flex;gap:12px;align-items:center}
+    .avatar{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#ff7a7a,#ffd27a);display:flex;align-items:center;justify-content:center;font-weight:700}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .subjects{grid-template-columns:1fr}
+    }
+
+    /* small utility */
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:13px}
+    strong{font-weight:800}
+  </style>
 </head>
-
 <body>
-<h1 id="last-minute-test-prep-for-cheap">Last-Minute Test Prep — Affordable and Reliable</h1>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">O+A</div>
+        <div>
+          <h1>Om + Ayaan Test Prep</h1>
+          <div class="sub">Concise. Strategic. Last-minute-friendly — up to <strong>12:00 AM</strong> the night before your test.</div>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div class="pill">From $15 — last-minute sessions available</div>
+        <div class="sub" style="margin-top:6px">Free trial available — schedule below</div>
+      </div>
+    </header>
 
-<p>Om + Ayaan Test Prep offers high-quality tutoring for **Chemistry, Calculus, Math, and Physics** at all levels. We are available anytime — even last-minute sessions up to <strong>12:00 AM</strong> the night before your exam.</p>
+    <section class="hero">
+      <div class="card">
+        <p class="big-cta">Fast, focused tutoring for students who need results — <strong>same-day sessions</strong>, concise review plans, and targeted practice tailored to your exam type (AP, IB, SAT Subject, High School tests, College finals).</p>
 
-<h2>Contact Us</h2>
-<p>Email: <a href="mailto:oatestprep@gmail.com">oatestprep@gmail.com</a></p>
-<p>Phone: 640-246-1947</p>
-<p>Discord: <a href="https://discord.com">lua_java</a></p>
+        <h2 style="margin-top:12px">What we teach (detailed)</h2>
+        <div class="subjects">
+          <div class="subject">
+            <h3>Chemistry</h3>
+            <ul>
+              <li><strong>General Chemistry:</strong> Stoichiometry, thermochemistry, equilibrium, acid–base, kinetics, periodic trends</li>
+              <li><strong>Organic Chemistry basics:</strong> functional groups, reaction mechanisms, nomenclature</li>
+              <li><strong>AP Chemistry/IB:</strong> titrations, electrochemistry, experimental design and data analysis</li>
+            </ul>
+          </div>
 
-<h1 id="whos-teaching">Who’s Teaching?</h1>
-<p>
-<a href="https://omraheja.me">Om Raheja</a><br>
-<a href="https://github.com/AZ-1215">Ayaan Zahid</a>
-</p>
+          <div class="subject">
+            <h3>Calculus & Advanced Math</h3>
+            <ul>
+              <li><strong>Calculus AB/BC:</strong> limits, derivatives, integrals, sequences & series, parametric & polar problems</li>
+              <li><strong>Multivariable intro:</strong> partial derivatives & multiple integrals (intro-level)</li>
+              <li><strong>AP/College problem strategies:</strong> free-response organization, time-saving methods</li>
+            </ul>
+          </div>
 
-<hr/>
-<p>&#169; Om + Ayaan Test Prep 2025</p>
+          <div class="subject">
+            <h3>Algebra, Trigonometry & Pre-Calc</h3>
+            <ul>
+              <li><strong>Algebra II:</strong> polynomials, rational expressions, complex numbers</li>
+              <li><strong>Trig & Analytic Geometry:</strong> identities, vectors, conics</li>
+              <li><strong>Exam drills:</strong> proof setup, manipulation shortcuts</li>
+            </ul>
+          </div>
 
+          <div class="subject">
+            <h3>Physics</h3>
+            <ul>
+              <li><strong>Mechanics:</strong> kinematics, Newton's laws, energy & momentum, rotational motion</li>
+              <li><strong>Electricity & Magnetism:</strong> circuits, Gauss's Law basics, fields</li>
+              <li><strong>Waves & Thermo:</strong> simple harmonic motion, heat & thermodynamics</li>
+              <li><strong>AP Physics 1 & 2 / C (Calc-based):</strong> tailored problem-solving & exam timing</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 style="margin-top:16px">How sessions work</h3>
+        <p class="muted">We adapt to your timeline: 30‑, 60‑, and 90‑minute sessions. Need a last‑minute review the night before? Book up to <strong>12:00 AM</strong>. We deliver a focused plan, worked example problems, and follow-up practice.</p>
+
+        <p style="margin-top:12px"><a class="cta-btn" href="mailto:oatestprep@gmail.com?subject=Schedule%20Session">Schedule a session or free trial</a></p>
+
+        <h4 style="margin-top:14px">Success approach</h4>
+        <p class="muted">We focus on <strong>concept clarity</strong>, <strong>exam strategy</strong>, and <strong>targeted practice</strong> — not busywork. Expect annotated solutions, step-by-step explanations, and time-saving exam hacks.</p>
+      </div>
+
+      <aside class="card">
+        <div class="contact">
+          <div style="font-size:13px;color:var(--muted)">Contact</div>
+          <div class="line"><span class="phone">Phone:</span><a href="tel:+16402461947">(640) 246‑1947</a></div>
+          <div class="line"><span class="phone">Email:</span><a href="mailto:oatestprep@gmail.com">oatestprep@gmail.com</a></div>
+          <div class="line"><span class="phone">Discord:</span><a href="https://discord.com">@lua_java</a></div>
+
+          <div style="margin-top:10px">
+            <div style="font-weight:800">Teachers</div>
+            <div class="teachers">
+              <div class="teacher"><div class="avatar">OR</div><div><strong>Om Raheja</strong><br/><span class="muted">Physics & Calculus specialist — focus on conceptual clarity and AP/College problem solving.</span></div></div>
+              <div class="teacher"><div class="avatar">AZ</div><div><strong>Ayaan Zahid</strong><br/><span class="muted">Chemistry & Math — strengths in stoichiometry, reaction mechanisms, and timed exam strategies.</span></div></div>
+            </div>
+          </div>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.04);margin:12px 0">
+
+          <div>
+            <div style="font-weight:800">Availability</div>
+            <p class="muted">We offer sessions daily. <strong>Same-day and last‑minute bookings accepted up to 12:00 AM</strong>. For urgent requests, call or email with "<strong>URGENT</strong>" in the subject.</p>
+          </div>
+
+          <div style="margin-top:8px">
+            <div style="font-weight:800">Pricing (example)</div>
+            <div class="muted">$15 — late night review session up to 12AM (short review). Standard rates vary by length — contact for details.</div>
+          </div>
+
+          <div style="margin-top:12px;text-align:center">
+            <a class="cta-btn" href="mailto:oatestprep@gmail.com?subject=Schedule%20Free%20Trial">Schedule your <strong>FREE TRIAL</strong></a>
+            <div class="muted" style="font-size:12px;margin-top:8px">Free trial available to first-time students. No credit card required — contact us to book.</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section style="margin-top:18px" class="card">
+      <h3>What to expect from a free trial</h3>
+      <ul>
+        <li><strong>15–30 minute review:</strong> quick diagnostic and targeted sample problems.</li>
+        <li><strong>Clear next steps:</strong> a short action plan and recommended session length.</li>
+        <li><strong>No obligation:</strong> try one session free and decide if you want more.</li>
+      </ul>
+
+      <h4 style="margin-top:12px">Want a custom plan?</h4>
+      <p class="muted">Tell us the exam type (e.g., "AP Calculus BC", "High School Chemistry final", "SAT Subject: Physics"), your target score/time available, and we'll send back a tailored plan in the reply email.</p>
+    </section>
+
+    <footer>
+      <div>&copy; Om + Ayaan Test Prep 2025 • Built for clarity & results</div>
+    </footer>
+  </div>
 </body>
 </html>
